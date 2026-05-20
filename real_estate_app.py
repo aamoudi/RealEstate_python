@@ -1162,10 +1162,10 @@ def page_contact(t):
     col1, col2 = st.columns([1.2, 0.8])
     with col1:
         contacts = [
-            ("📧", "Email", "your.email@example.com", "mailto:your.email@example.com"),
-            ("💼", "LinkedIn", "linkedin.com/in/yourprofile", "https://linkedin.com/in/yourprofile"),
-            ("🐙", "GitHub", "github.com/yourusername", "https://github.com/yourusername"),
-            ("🌐", "Portfolio", "yourportfolio.com", "https://yourportfolio.com"),
+            ("📧", "Email", "apood.amoudi@gmail.com", "mailto:your.email@example.com"),
+            ("💼", "LinkedIn", "linkedin.com/in/apood_amoudi", "https://linkedin.com/in/aamoudi"),
+            ("🐙", "GitHub", "github.com/aamoudi", "https://github.com/aamoudi"),
+            ("🌐", "Portfolio", "officialabo0od.gt.tc", "officialabo0od.gt.tc"),
         ]
         for icon, label, value, link in contacts:
             st.markdown(f"""
