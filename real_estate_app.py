@@ -663,7 +663,7 @@ def page_insights(t):
         with col4:
             fig4 = px.scatter(df, x="House Age (yrs)", y="Price per Unit Area",
                 color="Neighbourhood", color_discrete_map=CAT_COLORS,
-                trendline="lowess",
+                trendline="ols",
                 title="Scatter: Age vs Price (with trend)",
                 category_orders={"Neighbourhood": ["Cheap","Mid-Class","Pricey","Luxurious"]})
             fig_layout(fig4, t, height=350)
