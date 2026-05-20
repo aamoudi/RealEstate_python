@@ -1182,7 +1182,7 @@ def page_contact(t):
         st.markdown(f"""
         <div style="background:{t['card']};border:1px solid {t['border']};border-radius:16px;padding:28px;text-align:center;">
           <div style="font-size:2.8rem;margin-bottom:12px;">👨‍💻</div>
-          <div style="font-family:'Space Grotesk',sans-serif;font-size:1.3rem;font-weight:700;color:{t['text']};margin-bottom:6px;">Your Name</div>
+          <div style="font-family:'Space Grotesk',sans-serif;font-size:1.3rem;font-weight:700;color:{t['text']};margin-bottom:6px;">Eng. Abo0od</div>
           <div style="color:{t['subtext']};font-size:.88rem;line-height:1.6;margin-bottom:16px;">
             Data Scientist & ML Engineer<br>
             Passionate about real estate analytics,<br>predictive modelling & data storytelling.
@@ -1237,7 +1237,7 @@ def main():
     # Footer
     st.markdown(f"""
     <div class="footer">
-      Built with ❤️ and data by <span>Your Name</span> &nbsp;|&nbsp;
+      Built with ❤️ and data by <span>Eng. Apo0od</span> &nbsp;|&nbsp;
       EstateIQ — Real Estate Intelligence Platform &nbsp;|&nbsp;
       Powered by Random Forest & Streamlit
     </div>
