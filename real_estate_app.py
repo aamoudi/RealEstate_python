@@ -1165,7 +1165,7 @@ def page_contact(t):
             ("📧", "Email", "apood.amoudi@gmail.com", "mailto:your.email@example.com"),
             ("💼", "LinkedIn", "linkedin.com/in/apood_amoudi", "https://linkedin.com/in/aamoudi"),
             ("🐙", "GitHub", "github.com/aamoudi", "https://github.com/aamoudi"),
-            ("🌐", "Portfolio", "officialabo0od.gt.tc", "officialabo0od.gt.tc"),
+            ("🌐", "Portfolio", "officialabo0od.gt.tc", "https://officialabo0od.gt.tc/"),
         ]
         for icon, label, value, link in contacts:
             st.markdown(f"""
